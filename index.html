@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5ca1c8d92f.js" crossorigin="anonymous"></script>
+  <title>Game Project</title>
+</head>
+
+<body>
+  <!-- ################## Navigation Section############ -->
+  <section class="header">
+    <nav>
+      <a href=""><img src="images/logo.png"></a>
+      <div class="navlink" id="nav-link">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+
+  <!-- ------------Slider section------------------------ -->
+
+  <!--image slider start-->
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="images/slider1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/slider2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/slider3.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/slider4.jpg" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!--manual navigation start-->
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+
+
+  </div>
+  <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+
+  <!--  --------------------------------Gallery container is start here------------------------->
+  <div class="container">
+    <h2 data-aos="slide-left">Features</h2>
+    <p data-aos="flip-left">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quibusdam ad suscipit totam excepturi pariatur
+      dolores beatae? Molestias eius animi nesciunt, cum natus temporibus reiciendis nam fugit dolor distinctio sed
+      deserunt impedit quaerat ipsam? Fugit labore, ut blanditiis ad, quas quasi id asperiores nesciunt, hic vero
+      laborum? Veritatis esse consequatur magnam similique. Ex animi eos dolor labore! Id dolores nam obcaecati nisi
+      eveniet unde, repudiandae suscipit odio qui atque ex!
+    </p>
+  </div>
+   <div class="container">
+     <h2 data-aos="slide-left">LINKS</h2>
+   </div>
+  <div class="gallery-container">
+    <div class="gallery-box" id="image-1" data-aos="fade-up">
+      <div class="layer"  >
+        <h3>BGMI</h3>
+        <a href="pubg.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-2" data-aos="fade-up">
+      <div class="layer" >
+        <h3>ASPHALT</h3>
+        <a href="asphalt.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-3" data-aos="fade-up">
+
+      <div class="layer" >
+        <h3>COD</h3>
+        <a href="call.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-4" data-aos="fade-up">
+      <div class="layer" >
+        <h3>FORTNITE</h3>
+        <a href="fort.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-5" data-aos="fade-up">
+      <div class="layer" >
+        <h3>FREE FIRE</h3>
+        <a href="free.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-6" data-aos="fade-up">
+      <div class="layer" >
+        <h3>GOD</h3>
+        <a href="god.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-7" data-aos="fade-up">
+      <div class="layer" >
+        <h3>PUBG LITE</h3>
+        <a href="lite.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-8" data-aos="fade-up">
+      <div class="layer" >
+        <h3>HALO</h3>
+        <a href="mini.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+    <div class="gallery-box" id="image-9" data-aos="fade-up">
+      <div class="layer" >
+        <h3>S S</h3>
+        <a href="subway.html" class="hero-btn">Know more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------login Form-------------------- -->
+  <h2 data-aos="slide-left" class="connect-login">Connect With Us</h2>
+  <div class="login-form" data-aos="fade-up">
+      <div class="container" id="container">
+          <div class="form-container sign-up-container">
+              <form action="#">
+                  <h1>Create Account</h1>
+                  <div class="social-container">
+                      <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                      <a href="#" class="social"><i class="fab fa-google"></i></a>
+                      <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <span>or use your email for registration</span>
+                  <input type="text" placeholder="Name" required />
+                  <input type="email" placeholder="Email" required />
+                  <input type="password" placeholder="Password" required />
+                  <button>Sign Up</button>
+              </form>
+          </div>
+          <div class="form-container sign-in-container">
+              <form action="#">
+                  <h1>Login</h1>
+                  <div class="social-container">
+                      <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                      <a href="#" class="social"><i class="fab fa-google"></i></a>
+                      <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
+                    
+                  </div>
+                  <span>or use your account</span>
+                  <input type="email" placeholder="Email" required />
+                  <input type="password" placeholder="Password" required />
+                  <a href="#">Forgot your password?</a>
+                  <button>Login</button>
+              </form>
+          </div>
+          <div class="overlay-container">
+              <div class="overlay">
+                  <div class="overlay-panel overlay-left">
+                      <h1>Welcome Back!</h1>
+                      <p class="p-tokeep">To keep connected with us please login with your personal info</p>
+                      <button class="ghost" id="signIn">Login</button>
+                  </div>
+                  <div class="overlay-panel overlay-right">
+                      <h1>Hello, Friend!</h1>
+                      <p class="p-enter">Enter your personal details and start journey with us</p>
+                      <button class="ghost" id="signUp">Sign Up</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- --------------------footer--------------------- -->
+  <footer data-aos="fade-down">
+    <div class="row">
+      <div class="col">
+        <img src="images/logo.png" class="logo">
+        <div class="defination">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque provident sed repellat, iste et
+            aliquam ratione quisquam nobis enim quidem.</p>
+        </div>
+      </div>
+      <div class="col">
+        <h3>Office <div class="loder-size">
+            <div class="ab-underline">
+              <div class="loder-span"></div>
+            </div>
+          </div>
+        </h3><br>
+        <p>Gandhi Nagar</p>
+        <p>White House Road</p>
+        <p>Delhi, PIN 00050, India</p>
+        <p class="email-id">rage.rage22@gmail.com</p>
+        <p>+91 1010200030</p>
+      </div>
+      <div class="col">
+        <h3>Link <div class="loder-size">
+            <div class="ab-underline">
+              <div class="loder-span"></div>
+            </div>
+          </div>
+        </h3><br>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Newsletter <div class="loder-size">
+            <div class="ab-underline">
+              <div class="loder-span"></div>
+            </div>
+          </div>
+        </h3>
+        <br>
+        <form class="form2">
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+        <h3>Follow Us On <div class="loder-size">
+            <div class="ab-underline">
+              <div class="loder-span"></div>
+            </div>
+          </div>
+        </h3>
+        <br>
+        <br>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p>Terms and Privacy</p>
+      <p>© 2021 All Rights Reserved, Anupam Tripathi, Himanshu Pandey</p>
+    </div>
+  </footer>
+  <!-- --------JavaScript is added. ------------>
+  <script src="script.js"></script>
+  <!-- //Our aos data -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 200,
+    duration: 900,
+  });
+</script>
+</body>
+
+</html>
