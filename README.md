@@ -11,7 +11,7 @@ This is mini project website based on gaming. And all images are taken from goog
 https://tri-anupam.github.io/gaming-website.github.io/
 
 
-## Authors
+## Contribution
 
 - [@Anupam_tripathi](https://github.com/tri-anupam)
 - [@Himanshu_pandey](https://github.com/Himanshu-Panday)
