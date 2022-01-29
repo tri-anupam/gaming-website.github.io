@@ -58,6 +58,9 @@ nav .fas {
   display: none;
 }
 @media (max-width: 850px) {
+  body{
+    overflow-y:hidden;
+  }
   nav .fas {
     color: white;
     display: block;
