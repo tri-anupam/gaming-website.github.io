@@ -5,7 +5,7 @@
   z-index: 1;
 }
 body {
-  z-index: 2;
+  overflow-x:hidden;
 }
 .header {
   position: -webkit-sticky;
